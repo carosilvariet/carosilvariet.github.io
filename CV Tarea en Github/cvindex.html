@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <h1>Carolina Silva Riet Correa</h1>
+
+    <img src="WhatsApp Image 2023-07-14 at 20.10.51.jpeg" alt="Foto de perfil" style="float: left; margin-right: 15px;">
+
+    <p>Tengo una amplia gama de conocimientos en diferentes áreas y disfruto mucho aprendiendo y leyendo. Mis
+        experiencias laborales y educativas abarcan campos que van desde la Medicina hasta la Gastronomía, y en la
+        actualidad también me encuentro incursionando en el área de Tecnología de la Información. Siempre estoy abierta
+        a adquirir nuevos conocimientos en áreas que me resulten interesantes.</p>
+
+    <hr>
+
+    <h2>Experiencia Profesional</h2>
+
+    <table>
+        <tr>
+            <th>Empresa-Organización</th>
+            <th>Cargo</th>
+            <th>Desde-hasta</th>
+        </tr>
+        <tr>
+            <td>Feria Artesanal de La Paloma</td>
+            <td>Moza y cajera</td>
+            <td>Marzo 2014 - Actualidad</td>
+        </tr>
+        <tr>
+            <td>Grand Hotel Palladium</td>
+            <td>Moza de salón</td>
+            <td>2017 - 2017</td>
+        </tr>
+        <tr>
+            <td>Farmacia Pigalle</td>
+            <td>Auxiliar en Farmacia Hospitalaria</td>
+            <td>2018 - 2018</td>
+        </tr>
+        <tr>
+            <td>RCI Latinoamérica</td>
+            <td>Atención al Cliente para Brasil</td>
+            <td>2018 - 2021</td>
+        </tr>
+        <tr>
+            <td>TEBRISA</td>
+            <td>Atención al Cliente para Brasil</td>
+            <td>2021 - 2022</td>
+        </tr>
+        <tr>
+            <td>HALO</td>
+            <td>QA Junior - Software Tester</td>
+            <td>2022 - Actualidad</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <h2>Habilidades y Conocimientos</h2>
+
+    <ul>
+        <li>Auxiliar en Farmacia Hospitalaria</li>
+        <li>Técnica en Ventas y Negociaciones</li>
+        <li>Coaching</li>
+        <li>Operador Memory</li>
+        <li>Auxiliar en Educación Especial</li>
+        <li>Panadería Artesanal</li>
+        <li>Diseño y Confección de Indumentaria</li>
+        <li>Pintura Artística</li>
+        <li>QA Junior - Testing</li>
+    </ul>
+
+    <hr>
+
+    <h2>Educación</h2>
+
+    <table>
+        <tr>
+            <th>Entidad</th>
+            <th>Lugar</th>
+            <th>Avance</th>
+        </tr>
+        <tr>
+            <td>Desarrollo Web</td>
+            <td>Plan Ceibal (JaP)</td>
+            <td>Cursando</td>
+        </tr>
+        <tr>
+            <td>Facultad de Humanidades</td>
+            <td>UdelaR</td>
+            <td>Cursando</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>Perfiles Sociales</h2>
+
+    <p>También puedes encontrarme en:</p>
+
+    <ul>
+        <li><a href="https://api.whatsapp.com/send?phone=59899709372" target="_blank">Whatsapp</a></li>
+        <li><a href="https://www.linkedin.com/in/carolina-silva-riet-correa-457a0b154/" target="_blank">Linkedin</a>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>Contactar</h2>
+
+    <form action="enviar.php" method="POST">
+        <label for="para">Para:</label>
+        <input type="text" name="Para" id="para" size="30" placeholder="carolinasilvariet@gmail.com" readonly>
+        <br>
+        <label for="tematica">Temática:</label>
+        <select name="tematica" id="tematica">
+            <option value="Consulta">Consulta</option>
+            <option value="Propuesta">Propuesta</option>
+        </select>
+        <br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto" id="asunto">
+        <br>
+        <label for="cuerpo">Cuerpo:</label>
+        <br>
+        <textarea name="cuerpo" id="cuerpo"></textarea>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
