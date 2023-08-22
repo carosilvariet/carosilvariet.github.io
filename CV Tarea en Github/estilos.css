@@ -1,13 +1,12 @@
  body {
-    color: white;
-    background-image: url("https://fondosmil.com/fondo/54342.jpg");
+    color: rgb(0, 0, 0);
 }
 
 a {
-    color:white;
+    color:rgb(0, 0, 0);
 }
 a:visited {
-    color: beige;
+    color: rgb(0, 0, 0);
 }
 .cuerpo {
     width: 800px;
