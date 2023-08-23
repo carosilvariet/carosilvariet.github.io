@@ -1,8 +1,5 @@
 /**
 
-Mini Profile Template
-
-https://templatemo.com/tm-530-mini-profile
 
 
 Color Codes
@@ -342,6 +339,6 @@ p {
   }
 }
 .small-image {
-  width: 390px; /* Ancho deseado */
-  height: auto; /* Mantener la proporción original */
+  width: 390px; 
+  height: auto; 
 }
